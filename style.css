@@ -1,0 +1,163 @@
+:root {
+    --clr-accent: hsl(75, 94%, 57%);
+    --clr-body: hsl(0, 0%, 100%);
+    --clr-card: hsl(0, 0%, 12%);
+    --clr-button: hsl(0, 0%, 20%);
+    --clr-bg: hsl(0, 0%, 8%);
+
+    --clr-para: hsl(0, 0%, 80%);
+
+    --ff: "Inter", sans-serif;
+    --fw-body: 400;
+    --fw-regular: 600;
+    --fw-bold: 700;
+}
+
+
+
+
+/* CSS reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+
+
+body {
+    background-color: var(--clr-bg);
+    font-family: var(--ff);
+    color: var(--clr-body);
+    font-size: 0.875rem;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    gap: 1rem;
+}
+
+
+.card {
+    background-color: var(--clr-card);
+    display: grid;
+    place-content: center;
+    gap: 1rem;
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+
+}
+
+img {
+    border-radius: 100px;
+    border: 0;
+    width: 84px;
+    height: 84px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.details {
+    display: grid;
+    place-content: center;
+    align-items: center;
+    margin-top: 6px;
+    gap: 0.3rem;
+}
+
+h2 {
+    color: var(--clr-heading);
+    font-weight: var(--fw-regular);
+    text-align: center;
+}
+
+.details p {
+    color: var(--clr-accent);
+    font-size: 12px;
+    font-weight: var(--fw-regular);
+    text-align: center;
+    padding: 0;
+}
+
+p {
+    color: var(--clr-para);
+    padding: 0.5rem;
+    font-weight: var(--fw-body);
+}
+
+.buttons {
+    display: grid;
+    gap: 1rem;
+}
+
+.buttons>button {
+    color: var(--clr-body);
+    font-weight: var(--fw-regular);
+    background-color: var(--clr-button);
+    padding: 10px 0;
+    border: 0;
+    border-radius: 0.5rem;
+    
+}
+
+.buttons>button:hover {
+    cursor: pointer;
+    color: var(--clr-bg);
+    font-weight: var(--fw-regular);
+    background-color: var(--clr-accent);
+    
+}
+
+
+.attribution {
+    color: var(--clr-para);
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--clr-accent);
+}
