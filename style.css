@@ -140,7 +140,7 @@ p {
     padding: 10px 0;
     border: 0;
     border-radius: 0.5rem;
-    
+    transition: all 0.2s ease;
 }
 
 .buttons>button:hover {
@@ -148,9 +148,12 @@ p {
     color: var(--clr-bg);
     font-weight: var(--fw-regular);
     background-color: var(--clr-accent);
-    
+    box-shadow: 0 0 0 4px var(--clr-button), 0 0 0 8px var(--clr-accent);
 }
 
+.buttons>button:active {
+    transform: scale(0.90);
+}
 
 .attribution {
     color: var(--clr-para);
