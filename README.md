@@ -1,8 +1,8 @@
 # Frontend Mentor - Social links profile
 ### With button animations✨🤩
-## Desktop Design Active Status🔽([Link🔗]())
+## Desktop Design Active Status🔽([Link🔗](https://shubham-social-links.netlify.app/))
 ![desktop final design](/desktop_active.png)
-## Mobile Design🔽([Link🔗]())
+## Mobile Design🔽([Link🔗](https://shubham-social-links.netlify.app/))
 ![mobile final design](/mobile_final.png)
 
 ## Welcome! 👋
